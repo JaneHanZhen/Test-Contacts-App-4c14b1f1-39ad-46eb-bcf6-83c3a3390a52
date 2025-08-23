@@ -76,5 +76,40 @@ export const contacts: Contact[] = [
     phone: '(555) 012-3456',
     email: 'natalie.chen@example.com',
     avatar: 'https://randomuser.me/api/portraits/women/10.jpg',
+  },
+  {
+    id: '11',
+    name: 'Ethan Rodriguez',
+    phone: '(555) 123-7890',
+    email: 'ethan.rodriguez@example.com',
+    avatar: 'https://randomuser.me/api/portraits/men/11.jpg',
+  },
+  {
+    id: '12',
+    name: 'Isabella Kim',
+    phone: '(555) 234-8901',
+    email: 'isabella.kim@example.com',
+    avatar: 'https://randomuser.me/api/portraits/women/12.jpg',
+  },
+  {
+    id: '13',
+    name: 'Lucas Williams',
+    phone: '(555) 345-9012',
+    email: 'lucas.williams@example.com',
+    avatar: 'https://randomuser.me/api/portraits/men/13.jpg',
+  },
+  {
+    id: '14',
+    name: 'Mia Thompson',
+    phone: '(555) 456-0123',
+    email: 'mia.thompson@example.com',
+    avatar: 'https://randomuser.me/api/portraits/women/14.jpg',
+  },
+  {
+    id: '15',
+    name: 'Noah Garcia',
+    phone: '(555) 567-1234',
+    email: 'noah.garcia@example.com',
+    avatar: 'https://randomuser.me/api/portraits/men/15.jpg',
   }
 ];
