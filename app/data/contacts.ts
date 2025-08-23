@@ -118,5 +118,12 @@ export const contacts: Contact[] = [
     phone: '(555) 678-2345',
     email: 'sarah.miller@example.com',
     avatar: 'https://randomuser.me/api/portraits/women/16.jpg',
+  },
+  {
+    id: '17',
+    name: 'Benjamin Lee',
+    phone: '(555) 789-3456',
+    email: 'benjamin.lee@example.com',
+    avatar: 'https://randomuser.me/api/portraits/men/17.jpg',
   }
 ];
