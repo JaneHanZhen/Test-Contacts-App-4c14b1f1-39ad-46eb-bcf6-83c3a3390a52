@@ -1,9 +1,10 @@
-import { Tabs } from 'expo-router';
+import { Tabs, Redirect } from 'expo-router';
 import React from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { colors } from '../constants/theme';
 
 export default function TabLayout() {
+  // Redirect from index to contacts
   return (
     <Tabs
       screenOptions={{
@@ -29,10 +30,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home" size={size} color={color} />
-          ),
+          href: null, // Hide this tab
         }}
       />
       <Tabs.Screen
