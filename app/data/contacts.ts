@@ -125,5 +125,12 @@ export const contacts: Contact[] = [
     phone: '(555) 789-3456',
     email: 'benjamin.lee@example.com',
     avatar: 'https://randomuser.me/api/portraits/men/17.jpg',
+  },
+  {
+    id: '18',
+    name: 'Harper Davis',
+    phone: '(555) 890-4567',
+    email: 'harper.davis@example.com',
+    avatar: 'https://randomuser.me/api/portraits/women/18.jpg',
   }
 ];
