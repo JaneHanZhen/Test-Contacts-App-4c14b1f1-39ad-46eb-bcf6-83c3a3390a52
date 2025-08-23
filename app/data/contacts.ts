@@ -84,4 +84,11 @@ export const contacts: Contact[] = [
     email: 'sarah.parker@example.com',
     avatar: 'https://randomuser.me/api/portraits/women/12.jpg',
   },
+  {
+    id: '12',
+    name: 'Ryan Miller',
+    phone: '(555) 321-7654',
+    email: 'ryan.miller@example.com',
+    avatar: 'https://randomuser.me/api/portraits/men/15.jpg',
+  },
 ];
