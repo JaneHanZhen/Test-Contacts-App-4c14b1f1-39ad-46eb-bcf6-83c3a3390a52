@@ -42,7 +42,7 @@ export default function ContactsScreen() {
     ]).start();
     
     // You could add navigation to a contact details screen here
-    console.log('Contact pressed:', contact.name);
+    console.log('Friend selected:', contact.name);
   };
 
   return (
@@ -50,7 +50,7 @@ export default function ContactsScreen() {
       <StatusBar style="dark" />
       
       <View style={styles.header}>
-        <Text style={styles.title}>Contacts</Text>
+        <Text style={styles.title}>Friends</Text>
         <TouchableOpacity style={styles.addButton}>
           <Ionicons name="add" size={24} color={colors.primary} />
         </TouchableOpacity>
@@ -60,7 +60,7 @@ export default function ContactsScreen() {
         <Ionicons name="search" size={20} color={colors.textSecondary} style={styles.searchIcon} />
         <TextInput
           style={styles.searchInput}
-          placeholder="Search contacts..."
+          placeholder="Search friends..."
           placeholderTextColor={colors.textTertiary}
           value={searchQuery}
           onChangeText={setSearchQuery}
@@ -83,12 +83,12 @@ export default function ContactsScreen() {
               <Ionicons name="search" size={32} color={colors.primary} />
             </View>
             <Text style={styles.emptyTitle}>No Results</Text>
-            <Text style={styles.emptyText}>We couldn't find any contacts matching "{searchQuery}"</Text>
+            <Text style={styles.emptyText}>We couldn't find any friends matching "{searchQuery}"</Text>
           </View>
         ) : (
           <>
             <Text style={styles.contactsCount}>
-              {filteredContacts.length} {filteredContacts.length === 1 ? 'Contact' : 'Contacts'}
+              {filteredContacts.length} {filteredContacts.length === 1 ? 'Friend' : 'Friends'}
             </Text>
             <FlatList
               data={filteredContacts}
